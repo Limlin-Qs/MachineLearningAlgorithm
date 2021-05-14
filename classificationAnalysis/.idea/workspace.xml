@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d199b243-0e3b-4d53-b637-87f56c54b3b8" name="Default Changelist" comment="" />
+    <list default="true" id="d199b243-0e3b-4d53-b637-87f56c54b3b8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Data/five_cluster.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Naive_bayes/NB.py" beforeDir="false" afterPath="$PROJECT_DIR$/Naive_bayes/NB.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVM/svm.py" beforeDir="false" afterPath="$PROJECT_DIR$/SVM/svm.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +19,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1pYY2jRdAXnqyNhVEcoQltG98mC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,7 +32,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Advanced-k-means-experiments" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -33,12 +42,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Python_projects\Algorithms\classificationAnalysis\Data" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Python_projects\Algorithms\classificationAnalysis\Logistic_regression" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.knn">
-    <configuration name="R_forest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.NB">
+    <configuration name="NB" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="classificationAnalysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -46,12 +58,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Random_forest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Naive_bayes" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Random_forest/R_forest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Naive_bayes/NB.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.knn" />
+        <item itemvalue="Python.NB" />
         <item itemvalue="Python.svm" />
+        <item itemvalue="Python.knn" />
         <item itemvalue="Python.adaboost" />
         <item itemvalue="Python.R_forest0" />
-        <item itemvalue="Python.R_forest" />
       </list>
     </recent_temporary>
   </component>
@@ -175,6 +187,9 @@
       <workItem from="1615454331067" duration="4174000" />
       <workItem from="1618131509442" duration="568000" />
       <workItem from="1618398032328" duration="924000" />
+      <workItem from="1620614210640" duration="206000" />
+      <workItem from="1620894409378" duration="369000" />
+      <workItem from="1620900108081" duration="1218000" />
     </task>
     <servers />
   </component>
@@ -186,29 +201,34 @@
       <screen x="0" y="0" width="1152" height="680" />
     </state>
     <state x="309" y="126" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1152.680/1440.-127.853.643@0.0.1152.680" timestamp="1615454259587" />
-    <state x="307" y="39" key="FileChooserDialogImpl" timestamp="1615428480558">
-      <screen x="0" y="0" width="1152" height="680" />
+    <state x="303" y="38" key="FileChooserDialogImpl" timestamp="1620908360699">
+      <screen x="0" y="0" width="1138" height="671" />
     </state>
+    <state x="303" y="38" key="FileChooserDialogImpl/0.0.1138.671/2560.567.1280.984@0.0.1138.671" timestamp="1620908360699" />
     <state x="307" y="39" key="FileChooserDialogImpl/0.0.1152.680/1440.-127.853.643@0.0.1152.680" timestamp="1615428480558" />
-    <state width="1097" height="190" key="GridCell.Tab.0.bottom" timestamp="1618398965687">
-      <screen x="0" y="0" width="1152" height="680" />
+    <state width="1083" height="186" key="GridCell.Tab.0.bottom" timestamp="1620894783510">
+      <screen x="0" y="0" width="1138" height="671" />
     </state>
-    <state width="1097" height="190" key="GridCell.Tab.0.bottom/0.0.1152.680/1440.-127.853.643@0.0.1152.680" timestamp="1618398965687" />
+    <state width="1083" height="186" key="GridCell.Tab.0.bottom/0.0.1138.671/2560.567.1280.984@0.0.1138.671" timestamp="1620894783510" />
+    <state width="1097" height="190" key="GridCell.Tab.0.bottom/0.0.1152.680/1440.-127.853.643@0.0.1152.680" timestamp="1620614417820" />
     <state width="800" height="275" key="GridCell.Tab.0.bottom/0.0.1152.680/1440.-127.853.643@1440.-127.853.643" timestamp="1615468321039" />
-    <state width="1097" height="190" key="GridCell.Tab.0.center" timestamp="1618398965687">
-      <screen x="0" y="0" width="1152" height="680" />
+    <state width="1083" height="186" key="GridCell.Tab.0.center" timestamp="1620894783510">
+      <screen x="0" y="0" width="1138" height="671" />
     </state>
-    <state width="1097" height="190" key="GridCell.Tab.0.center/0.0.1152.680/1440.-127.853.643@0.0.1152.680" timestamp="1618398965687" />
+    <state width="1083" height="186" key="GridCell.Tab.0.center/0.0.1138.671/2560.567.1280.984@0.0.1138.671" timestamp="1620894783510" />
+    <state width="1097" height="190" key="GridCell.Tab.0.center/0.0.1152.680/1440.-127.853.643@0.0.1152.680" timestamp="1620614417820" />
     <state width="800" height="275" key="GridCell.Tab.0.center/0.0.1152.680/1440.-127.853.643@1440.-127.853.643" timestamp="1615468321039" />
-    <state width="1097" height="190" key="GridCell.Tab.0.left" timestamp="1618398965687">
-      <screen x="0" y="0" width="1152" height="680" />
+    <state width="1083" height="186" key="GridCell.Tab.0.left" timestamp="1620894783510">
+      <screen x="0" y="0" width="1138" height="671" />
     </state>
-    <state width="1097" height="190" key="GridCell.Tab.0.left/0.0.1152.680/1440.-127.853.643@0.0.1152.680" timestamp="1618398965687" />
+    <state width="1083" height="186" key="GridCell.Tab.0.left/0.0.1138.671/2560.567.1280.984@0.0.1138.671" timestamp="1620894783510" />
+    <state width="1097" height="190" key="GridCell.Tab.0.left/0.0.1152.680/1440.-127.853.643@0.0.1152.680" timestamp="1620614417820" />
     <state width="800" height="275" key="GridCell.Tab.0.left/0.0.1152.680/1440.-127.853.643@1440.-127.853.643" timestamp="1615468321039" />
-    <state width="1097" height="190" key="GridCell.Tab.0.right" timestamp="1618398965687">
-      <screen x="0" y="0" width="1152" height="680" />
+    <state width="1083" height="186" key="GridCell.Tab.0.right" timestamp="1620894783510">
+      <screen x="0" y="0" width="1138" height="671" />
     </state>
-    <state width="1097" height="190" key="GridCell.Tab.0.right/0.0.1152.680/1440.-127.853.643@0.0.1152.680" timestamp="1618398965687" />
+    <state width="1083" height="186" key="GridCell.Tab.0.right/0.0.1138.671/2560.567.1280.984@0.0.1138.671" timestamp="1620894783510" />
+    <state width="1097" height="190" key="GridCell.Tab.0.right/0.0.1152.680/1440.-127.853.643@0.0.1152.680" timestamp="1620614417820" />
     <state width="800" height="275" key="GridCell.Tab.0.right/0.0.1152.680/1440.-127.853.643@1440.-127.853.643" timestamp="1615468321039" />
     <state x="0" y="0" key="SettingsEditor" timestamp="1615386445098">
       <screen x="0" y="0" width="1152" height="680" />
@@ -217,9 +237,10 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/classificationAnalysis$adaboost.coverage" NAME="adaboost Coverage Results" MODIFIED="1615466729326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Adaboost" />
+    <SUITE FILE_PATH="coverage/classificationAnalysis$NB.coverage" NAME="NB Coverage Results" MODIFIED="1620894677027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Naive_bayes" />
     <SUITE FILE_PATH="coverage/classificationAnalysis$R_forest.coverage" NAME="R_forest Coverage Results" MODIFIED="1615455454468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Random_forest" />
-    <SUITE FILE_PATH="coverage/classificationAnalysis$svm.coverage" NAME="svm Coverage Results" MODIFIED="1615468179957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SVM" />
     <SUITE FILE_PATH="coverage/classificationAnalysis$knn.coverage" NAME="knn Coverage Results" MODIFIED="1618398201699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KNN" />
+    <SUITE FILE_PATH="coverage/classificationAnalysis$svm.coverage" NAME="svm Coverage Results" MODIFIED="1620614325392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SVM" />
     <SUITE FILE_PATH="coverage/classificationAnalysis$R_forest0.coverage" NAME="R_forest0 Coverage Results" MODIFIED="1615464473736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Random_forest" />
   </component>
 </project>

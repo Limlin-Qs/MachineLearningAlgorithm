@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-# 数据没准备，二进制数据
+# 数据没准备，二进制数据；数据没有画图，只测试了分类的准确性，以及运行花费的时间。
 import time
 import numpy as np
 import pandas as pd
@@ -20,15 +20,15 @@ if __name__ == '__main__':
 
     print('prepare datasets...')
     # Iris数据集
-    # iris=datasets.load_iris()
-    # features=iris.data
-    # labels=iris.target
+    iris=datasets.load_iris()
+    features=iris.data
+    labels=iris.target
 
     # MINST数据集
-    raw_data = pd.read_csv('../data/train_binary.csv', header=0)  # 读取csv数据，并将第一行视为表头，返回DataFrame类型
-    data = raw_data.values
-    features = data[::, 1::]
-    labels = data[::, 0]    # 选取33%数据作为测试集，剩余为训练集
+    # raw_data = pd.read_csv('../data/five_cluster.txt', header=0)  # 读取csv数据，并将第一行视为表头，返回DataFrame类型
+    # data = raw_data.values
+    # features = data[::, 1::]
+    # labels = data[::, 0]    # 选取33%数据作为测试集，剩余为训练集
 
     train_features, test_features, train_labels, test_labels = train_test_split(features, labels, test_size=0.33, random_state=0)
 
