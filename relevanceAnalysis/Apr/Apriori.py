@@ -1,3 +1,6 @@
+# 在集成环境内运行该算法，出现以下计内容
+# Expected input format: python apriori.py <dataset.csv> <minConf>
+# 盲猜：需要在命令行运行py文件，并输入相关参数，或者直接附带参数
 import sys
 import os.path
 import csv

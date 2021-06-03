@@ -214,6 +214,7 @@ if __name__ == "__main__":
 	save_path = current_path + "/log/" + filename.split(".")[0] + "_fpgrowth.txt"
 
 	data_set = load_data(path)
+	print(data_set)
 	fp = Fp_growth()
 	rule_list = fp.generate_R(data_set, min_support, min_conf)
 	save_rule(rule_list, save_path)

@@ -4,7 +4,7 @@ from math import log
 import operator
 # 模块提供了一套与Python的内置运算符对应的高效率函数 . 许多函数名与特殊方法名相同，
 # 只是没有双下划线。为了向后兼容性，也保留了许多包含双下划线的函数。函数包含的种类有：对象的比较运算、逻辑运算、数学运算以及序列运算。
-import treePlotter
+from DesidionTree import treePlotter
 from sklearn.model_selection import cross_val_score
 
 
