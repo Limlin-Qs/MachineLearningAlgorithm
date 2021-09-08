@@ -1,5 +1,5 @@
 # 在集成环境内运行该算法，出现以下计内容
-# Expected input format: python apriori.py <dataset.csv> <minConf>
+# Expected input format: python dm_apriori.py <dataset.csv> <minConf>
 # 盲猜：需要在命令行运行py文件，并输入相关参数，或者直接附带参数
 import sys
 import os.path
@@ -161,7 +161,7 @@ def main():
 
     # Make sure the right number of input files are specified
     if num_args < 4 or num_args > 5:
-        print('Expected input format: python apriori.py <dataset.csv> <minConf>')
+        print('Expected input format: python dm_apriori.py <dataset.csv> <minConf>')
         return
     elif num_args == 5 and sys.argv[1] == "--no-rules":
         dataset = csv.reader(open(sys.argv[2], "r"))

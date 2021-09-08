@@ -140,8 +140,9 @@ if __name__ == "__main__":
     # size = 5  # 频繁项最大大小
 
     current_path = os.getcwd()
+    print(current_path)
     if not os.path.exists(current_path + "/log"):
-        os.mkdir("log")
+        os.mkdir("../data_mine-master/log")
     path = current_path + "/dataset/" + filename
     save_path = current_path + "/log/" + filename.split(".")[0] + "_apriori.txt"
 
